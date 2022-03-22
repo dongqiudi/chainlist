@@ -84,7 +84,7 @@ function Home({ changeTheme, theme, sortedChains }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Chainlist</title>
+        <title>Chainz-链之家</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -93,14 +93,13 @@ function Home({ changeTheme, theme, sortedChains }) {
           <div className={classes.copyContainer}>
             <div className={classes.copyCentered}>
               <Typography variant="h1" className={classes.chainListSpacing}>
-                <span className={classes.helpingUnderline}>Chainlist</span>
+                <span className={classes.helpingUnderline}>Chainz-链之家</span>
               </Typography>
               <Typography variant="h2" className={classes.helpingParagraph}>
-                Helping users connect to EVM powered networks
+                自助添加所有链
               </Typography>
               <Typography className={classes.subTitle}>
-                Chainlist is a list of EVM networks. Users can use the information to connect their wallets and Web3
-                middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain.
+                链接钱包--搜索链名称--点击add即可添加进钱包。
               </Typography>
               <Button
                 size="large"
@@ -136,7 +135,7 @@ function Home({ changeTheme, theme, sortedChains }) {
                     />
                   </svg>
                   <Typography variant="body1" className={classes.sourceCode}>
-                    View Source Code
+                    Powerd by chainlist
                   </Typography>
                 </a>
 
