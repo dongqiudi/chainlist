@@ -119,7 +119,7 @@ function Home({ changeTheme, theme, sortedChains }) {
                 onClick={addRpc}
                 endIcon={<AddIcon />}
               >
-                <Typography className={classes.buttonLabel}>Add Your RPC</Typography>
+                /*<Typography className={classes.buttonLabel}>Add Your RPC</Typography>
               </Button>
               <div className={classes.socials}>
                 <a
@@ -127,7 +127,7 @@ function Home({ changeTheme, theme, sortedChains }) {
                   href="https://github.com/DefiLlama/chainlist"
                   target="_blank"
                   rel="noopener noreferrer"
-                >
+                >*/
                   <svg version="1.1" width="24" height="24" viewBox="0 0 24 24">
                     <path
                       fill={'#2F80ED'}
