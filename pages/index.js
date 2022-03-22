@@ -84,7 +84,7 @@ function Home({ changeTheme, theme, sortedChains }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Chainz-链之家</title>
+        <title>Chainz-链之家-助您快速畅游web3</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -96,7 +96,7 @@ function Home({ changeTheme, theme, sortedChains }) {
                 <span className={classes.helpingUnderline}>Chainz-链之家</span>
               </Typography>
               <Typography variant="h2" className={classes.helpingParagraph}>
-                自助添加所有链
+                自助添加所有链--自由翱翔web3
               </Typography>
               <Typography className={classes.subTitle}>
                 链接钱包--搜索链名称--点击add即可添加进钱包。
@@ -132,7 +132,7 @@ function Home({ changeTheme, theme, sortedChains }) {
 
                 <a
                   className={`${classes.socialButton}`}
-                  href="https://discord.com/invite/buPFYXzDDd"
+                  href="https://twitter.com/laoyan06"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -143,7 +143,7 @@ function Home({ changeTheme, theme, sortedChains }) {
                     ></path>
                   </svg>
                   <Typography variant="body1" className={classes.sourceCode}>
-                    Join our Discord
+                    Twitter
                   </Typography>
                 </a>
               </div>
