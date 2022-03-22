@@ -111,16 +111,7 @@ function Home({ changeTheme, theme, sortedChains }) {
               >
                 <Typography className={classes.buttonLabel}>Add Your Network</Typography>
               </Button>
-              <Button
-                size="large"
-                color="primary"
-                variant="outlined"
-                className={classes.addRpcButton}
-                onClick={addRpc}
-                endIcon={<AddIcon />}
-              >
-                <Typography className={classes.buttonLabel}>Add Your RPC</Typography>
-              </Button>
+              
               <div className={classes.socials}>
                 <a
                   className={`${classes.socialButton}`}
